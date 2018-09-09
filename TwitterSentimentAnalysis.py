@@ -3,13 +3,6 @@ Word positive negative bad
 xxx   1/0     1/0      1/0
 """
 
-"""
-Resources
-https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
-'Multinomial: It is used for discrete counts. For example, let’s say,  we have a text classification problem. Here we can consider bernoulli trials which is one step further and instead of “word occurring in the document”, we have “count how often word occurs in the document”, you can think of it as “number of times outcome number x_i is observed over the n trials”.'
-http://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note07-2up.pdf
-https://data.world/datasets/twitter
-"""
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer 
